@@ -92,6 +92,20 @@ export default function AboutPage() {
           ))}
         </div>
       </section>
+       {/* Tech Stack */}
+      <section className="mb-16">
+        <h2 className="text-2xl md:text-3xl font-bold mb-6">Our Tech Stack</h2>
+        <div className="bg-gray-100 p-6 md:p-8 rounded-lg">
+          <ul className="list-disc list-inside text-gray-700 space-y-2 text-base md:text-lg">
+            <li><strong>Next.js 13+</strong> — React framework with App Router for SSR & performance</li>
+            <li><strong>TypeScript</strong> — Type-safe development for better code quality</li>
+            <li><strong>Tailwind CSS</strong> — Utility-first CSS for responsive, modern design</li>
+            <li><strong>Lucide React</strong> — Beautiful, customizable icon set</li>
+            <li><strong>JSONPlaceholder API</strong> — Dynamic, mock content for demo purposes</li>
+            <li><strong>Responsive Design</strong> — Mobile-first layouts for a great experience everywhere</li>
+          </ul>
+        </div>
+      </section>
 
       {/* Mission Statement */}
       <section className="bg-gradient-to-r from-blue-50 to-purple-50 p-8 md:p-12 rounded-lg text-center shadow-lg">
